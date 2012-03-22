@@ -1,0 +1,96 @@
+\documentclass{article}
+%\usepackage{amssymbol}
+
+\setlength{\parindent}{0pt} 
+\def\therefore{%
+     \leavevmode
+     \lower0.2ex\hbox{$\circ$}%
+     \kern-0.2em\raise0.7ex\hbox{$\circ$}%
+     \kern-0.2em\lower0.2ex\hbox{$\circ$}%
+     \thinspace}
+
+\begin{document}
+Definition 1: $\cdot$ (and)
+\begin{itemize}
+\item
+$p$
+
+$q$
+
+$\therefore p \cdot q$
+\item
+$p \cdot q$
+
+$\therefore p$
+
+$\therefore q$
+
+\end{itemize}
+\\
+Definition 2: $\vee$ (or)
+
+\begin{itemize}
+\item
+$p \vee q$
+
+$\sim p$
+
+$\therefore q$
+
+\item
+$p$
+
+$p \vee q$
+
+
+\end{itemize}
+
+\\
+Definition 3: $\rightarrow$ (if-then)
+
+$p \rightarrow q$
+
+$p$
+
+$\therefore q$
+\\
+Theorem 1: (commutativity of $\cdot$)
+
+$p \cdot q$
+
+$p$
+
+$q$
+
+$\therefore q \cdot p$
+\\
+Exercise 1:
+
+Prove that $p \vee q \rightarrow q \vee p$.
+(We denote this property by saying that $\vee$ is commutative.)
+
+Theorem 2: (De Morgan)
+
+$\sim (p \vee q)$
+
+\indent $p$
+
+\indent $p \vee q$
+
+\indent $(p \vee q) \cdot \sim (p \vee q)$
+
+$\sim p$
+
+\indent $q$
+
+\indent $q \vee p$
+
+\indent $p \vee q$
+
+\indent $(p \vee q) \cdot \sim (p \vee q)$
+
+$\sim q$
+
+$\therefore \sim p \cdot \sim q$
+
+\end{document}
